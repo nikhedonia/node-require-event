@@ -1,0 +1,17 @@
+{
+  "name": "node-hotpatch",
+  "version": "0.0.0",
+  "description": "paching(hotswap) running node-app  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hot",
+    "patch",
+    "hotswap",
+    "swap"
+  ],
+  "author": "Gaetano Checinski",
+  "license": "ISC"
+}
