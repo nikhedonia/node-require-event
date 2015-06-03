@@ -1,17 +1,22 @@
 {
-  "name": "node-hotpatch",
+  "name": "require-event",
   "version": "0.0.0",
-  "description": "paching(hotswap) running node-app  ",
+  "description": "get notified when modules get required",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "hot",
-    "patch",
-    "hotswap",
-    "swap"
-  ],
+    "require",
+    "emmett",
+    "hook",
+    "module",
+    "load"  ],
   "author": "Gaetano Checinski",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "emmett": "^3.0.0",
+    "extend": "^2.0.1"
+  },
+  "repository": "https://github.com/nikhedonia/require-event.git"
 }
